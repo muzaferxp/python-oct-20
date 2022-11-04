@@ -2,7 +2,7 @@ temp = 15.6
 light = 34
 time = 23   #20:00  (10PM)
 
-#here we are checkinh temp
+#here we are checking temp
 if temp > 25:
     print("Turning ON the AC")
     
