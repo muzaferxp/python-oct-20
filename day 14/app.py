@@ -3,22 +3,16 @@ import loanApplication
 
 app = Flask(__name__)
 
-
 @app.route("/")
 def index():
     return "welcome"
 
-
-
 @app.route("/initiate-process")
 def initiateProcess():
-    
     Type = request.args.get("type")
     Date = request.args.get("date")
-    
     res = loanApplication.initProcessFunction(Type, Date)
     return {"data" : res, }
-
 
 @app.route("/verification")
 def verification():
@@ -29,7 +23,6 @@ def verification():
 @app.route("/approve")
 def approve():
     return "welcome"
-
 
 @app.route("/get-all-application")
 def getAllApplications():
