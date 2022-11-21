@@ -1,5 +1,5 @@
 1. Loan Application: Basic 3 crud apis to initiate, verify and approve loan application
 2. Slot booking: Crud api to create, read, update slots
 3. libary: Api to checkin and checkout a book from library
-4. student management: Crud api for adding, updating and reading student details
+4.              student management: Crud api for adding, updating and reading student details
 5. bike renting system: Crud api to add rent application
