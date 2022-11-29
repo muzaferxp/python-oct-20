@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Font Awesome -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.1/mdb.min.css"
+rel="stylesheet"
+/>
+
+<!-- MDB -->
+<script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.1/mdb.min.js"
+></script>
+
+    </head>
+    <body class='container bg-light'>
+                
+        <div class="row m-4">
+            <div class="col-3">
+              <!-- Tab navs -->
+              <div
+              >
+               
+              {% for x in options %}
+                <a
+                  class="nav-link bg-info p-4 rounded shadow my-2 "
+                  href="/home/{{x.lower()}}"
+                  >{{x}}</a
+                >
+                {% endfor %}
+            
+              </div>
+              <!-- Tab navs -->
+            </div>
+          
+            <div class="col-9">
+             
+
+                {% for x in charValue %}
+                <a
+                  class="card shadow bg-dark text-white p-2 my-4"
+                  href="{{x.split(",")[1]}}"
+                  >{{x.split(",")[0]}}</a
+                >
+                {% endfor %}
+            </div>
+          </div>        
+    </body>
+</html>
