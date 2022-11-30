@@ -1,7 +1,6 @@
 
 def getDataByChar(char):
     f = open("data/data.csv")
-    
     data = []
     for line in f:
         if line[0].lower() == char:
@@ -34,7 +33,6 @@ def getCounts():
             
     print(count)
     
-getCounts()
         
         
     

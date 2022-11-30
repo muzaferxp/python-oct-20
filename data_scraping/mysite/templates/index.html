@@ -1,0 +1,8 @@
+<h1>List of Companies</h1>
+{{c_count}}
+
+{% for line in data %}
+
+   <a style="border:1px solid grey; padding: 5px; margin : 10px; display: block" href="{{line[1]}}">{{line[0]}}</a>
+
+{% endfor %}
