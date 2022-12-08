@@ -1,0 +1,24 @@
+{
+    "students": [
+        {
+            "name": "Adam",
+            "roll_no": "522"
+        },
+        {
+            "name": "Sam",
+            "roll_no": "523"
+        },
+        {
+            "name": "David",
+            "roll_no": "555"
+        },
+        {
+            "name": "David Thomas",
+            "roll_no": "556"
+        },
+        {
+            "name": "David Thomas",
+            "roll_no": "556"
+        }
+    ]
+}

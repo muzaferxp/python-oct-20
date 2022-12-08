@@ -1,0 +1,2 @@
+New line 2 different using white method
+New line added using append
